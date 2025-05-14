@@ -9,11 +9,25 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: lightgreen;
+    animation: test 3s 1s infinite;
     font-size: large;
     
 }
 
 ul{
     list-style-type: none;
+}
+
+@keyframes test {
+    0%{
+        background-color: aqua;
+    }
+
+    50%{
+        background-color: lightgreen;
+    }
+
+    100%{
+        background-color: lightcoral;
+    }
 }
